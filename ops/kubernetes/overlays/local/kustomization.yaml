@@ -1,0 +1,11 @@
+bases:
+  - ../../base
+
+namespace: web-local
+
+patchesStrategicMerge:
+  - app.yaml
+
+resources:
+  - namespace.yaml
+  - ingress.yaml
